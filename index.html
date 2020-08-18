@@ -13,12 +13,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
     <link href="css/styles.css" rel="stylesheet" />
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <nav class="navbar navbar-expand-sm navbar-dark">
       <a class="navbar-brand" href="#">
         <img src="images/logo.jpg" style="width: 100px;" />
       </a>
@@ -47,7 +46,7 @@
             <a class="nav-link" href="about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="contact.html">Contact</a>
+            <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
@@ -55,13 +54,30 @@
 
     <div class="container-fluid">
       <!-- Elevator pitch -->
-      <div class="row">
+      <div class="row" style="height: 10vh;">
         <div class="col">
-          <h1>Congratulations! ...</h1>
-          <p>Acceptitas is a holistic college essay editing and coaching service, whose goal is to create the strongest narrative in an application. This is done by working with students to strengthen their application essays so that it fits a larger narrative, which is the most compelling version of themselves. Acceptitas is primary for students that are in the beginning, middle, or very end of the essay writing and application process. 
-
-What we offer is a holistic approach to presenting the most competitive version of a student at a fraction of the cost, with the lived experience of Harvard students. At Acceptitas, we offer access to those who know elite school’s current admissions process personally -- Harvard students. Our narrative crafting skills, firsthand understanding of the holistic process, and competitive price are our biggest assets.
-</p>
+          <h1>
+            Congratulations!
+          </h1>
+        </div>
+      </div>
+      <div class="row" style="height: 90vh;">
+        <div class="col-md-8 offset-md-2 d-flex align-content-center flex-wrap">
+          <p id="elevatorPitch">
+            Acceptitas is a holistic college essay editing and coaching service,
+            whose goal is to create the strongest narrative in an application.
+            This is done by working with students to strengthen their
+            application essays so that it fits a larger narrative, which is the
+            most compelling version of themselves. Acceptitas is primary for
+            students that are in the beginning, middle, or very end of the essay
+            writing and application process. What we offer is a holistic
+            approach to presenting the most competitive version of a student at
+            a fraction of the cost, with the lived experience of Harvard
+            students. At Acceptitas, we offer access to those who know elite
+            school’s current admissions process personally -- Harvard students.
+            Our narrative crafting skills, firsthand understanding of the
+            holistic process, and competitive price are our biggest assets.
+          </p>
         </div>
       </div>
       <!-- Services -->
@@ -96,7 +112,8 @@ What we offer is a holistic approach to presenting the most competitive version 
       </button>
       <!-- Footer -->
     </div>
+
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-    <script src="js/main.js"></script>
+    <script src="scripts/fade.js"></script>
   </body>
 </html>
