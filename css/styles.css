@@ -1,11 +1,11 @@
 :root {
   --blue: rgb(12, 131, 155);
-  --red: rgb(254, 18, 30);
+  --red: #a41034;
   --purple: rgb(183, 148, 250);
   --yellow: rgb(245, 229, 91);
   --green: rgb(136, 194, 19);
   --white: rgb(231, 231, 222);
-  --black: #1e1e22;
+  --black: #100e0e;
 }
 
 body {
@@ -18,11 +18,11 @@ nav {
 }
 
 #navbarNav a:hover {
-  border-bottom: 3px solid red;
+  border-bottom: 3px solid var(--red);
 }
 
 #navbarNav a.active {
-  border-bottom: 3px solid red;
+  border-bottom: 3px solid var(--red);
 }
 
 #elevatorPitch {
