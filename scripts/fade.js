@@ -1,7 +1,15 @@
-console.log("hello");
-document.addEventListener("DOMContentLoaded", function () {
-  fadeIn(document.getElementById("elevatorPitch"));
-});
+$(allInView);
+$(window).scroll(allInView);
+
+function isScrolledIntoView(elem) {
+  var docViewTop = $(window).scrollTop();
+  var docViewBottom = docViewTop + $(window).height();
+
+  var elemTop = $(elem).offset().top;
+  var elemBottom = elemTop + $(elem).height();
+
+  return elemBottom <= docViewBottom && elemTop >= docViewTop;
+}
 
 function fadeIn(element) {
   var op = 0.1; // initial opacity
@@ -12,6 +20,15 @@ function fadeIn(element) {
     }
     element.style.opacity = op;
     element.style.filter = "alpha(opacity=" + op * 100 + ")";
-    op += op * 0.005;
+    op += op * 0.03;
   }, 10);
+}
+
+let visible = false;
+
+function allInView() {
+  if (!visible && isScrolledIntoView($("#elevatorPitch"))) {
+    fadeIn(document.getElementById("elevatorPitch"));
+    visible = true;
+  }
 }

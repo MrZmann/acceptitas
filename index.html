@@ -16,6 +16,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="css/styles.css" rel="stylesheet" />
   </head>
   <body>
@@ -57,23 +59,30 @@
 
     <div class="container-fluid"">
       <!-- Elevator pitch -->
-      <div class="row" style="height: 10vh;">
-        <div class="col">
-          <h1>
+      <div class="row" style="height: 70vh;">
+        <div class="col my-auto text-center">
+          <h1 style="font-size: 6rem;">
             Build Your Narrative.
           </h1>
         </div>
       </div>
-      <div class="row" style="height: 90vh;">
-        <div class="col-md-8 offset-md-2 d-flex align-content-center flex-wrap">
-          <p id="elevatorPitch">
+      <div class="row" style="height: 10vh;">
+        <div class="col my-auto text-center">
+          <a class="ct-btn-scroll ct-js-btn-scroll" href="#pitch" id="scroll">
+            <i class="fa fa-angle-double-down" style="font-size:36px; color: #ccc;"></i>
+          </a>
+        </div>
+      </div>
+      <div class="row" style="height: 100vh;">
+        <div class="col-md-8 offset-md-2 d-flex align-content-center flex-wrap" id="pitch">
+          <p id="elevatorPitch" style="opacity: 0;">
             When everyone has the grades, test scores, and activities, how do exceptional students stand out? The overall narrative--the picture the admissions offer has of a student’s character, strengths, and lived experience. Acceptitas is a holistic college application editing service that brings out students' unique and compelling story across all their application materials. Founded by a current Harvard student, we offer our first hand experience in the college admissions process and strong narrative crafting skills at a fraction of the cost. We help students build their unique narrative, so that they can submit with confidence.
           </p>
         </div>
       </div>
 
       <!-- Services -->
-      <div class="row">
+      <div class="row" >
         <div class="col-md-3">
           <h1>Strategy Consultations</h1>
           <p>We use our first-hand experience to help you identify and craft your most compelling narrative through our strategy consultations. We will get to know you, examine your life experiences, interests, and aspirations to craft your unique application narrative. After our meeting, you will receive an assessment of your current narrative, its strengths, areas for growth, and an action plan for refining your story across your application materials.</p>
@@ -118,5 +127,6 @@
     </footer>
 
     <script src="scripts/fade.js"></script>
+    <script src="scripts/scroll.js"></script>
   </body>
 </html>
