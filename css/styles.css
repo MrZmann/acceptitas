@@ -21,10 +21,6 @@ nav {
   border-bottom: 3px solid var(--red);
 }
 
-#navbarNav a.active {
-  border-bottom: 3px solid var(--red);
-}
-
 #opening {
   font-size: 6rem;
 }
