@@ -25,6 +25,10 @@ nav {
   border-bottom: 3px solid var(--red);
 }
 
+#opening {
+  font-size: 6rem;
+}
+
 #elevatorPitch {
   justify-self: center;
   align-self: center;
@@ -50,4 +54,18 @@ button a {
 
 .container-fluid {
   margin-bottom: 80px; /*Same as footer height */
+}
+
+img {
+  width: 100%;
+}
+
+.band {
+  background: var(--black);
+  background: linear-gradient(
+    90deg,
+    var(--black) 0%,
+    var(--red) 50%,
+    var(--black) 100%
+  );
 }
