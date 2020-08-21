@@ -12,6 +12,12 @@ body {
   background-color: var(--black);
   color: var(--white);
 }
+
+.highlight {
+  color: var(--red);
+  font-weight: bold;
+}
+
 nav {
   /* background-color: var(--purple); */
   color: var(--white);
@@ -28,6 +34,7 @@ nav {
 #elevatorPitch {
   justify-self: center;
   align-self: center;
+  font-size: 1.7em;
 }
 button {
   padding: 5px;
