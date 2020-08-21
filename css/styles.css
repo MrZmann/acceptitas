@@ -18,6 +18,11 @@ body {
   font-weight: bold;
 }
 
+.pop {
+  background-color: rgba(157, 157, 157, 0.1);
+  border-radius: 2px;
+}
+
 nav {
   /* background-color: var(--purple); */
   color: var(--white);
