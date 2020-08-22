@@ -64,6 +64,14 @@ button a {
   margin-bottom: 80px; /*Same as footer height */
 }
 
+small a {
+  color: var(--white);
+}
+
+small a:hover {
+  color: var(--white);
+}
+
 img {
   width: 100%;
 }
