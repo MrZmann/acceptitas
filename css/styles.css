@@ -77,13 +77,7 @@ img {
 }
 
 .band {
-  background: var(--black);
-  background: linear-gradient(
-    90deg,
-    var(--red) 100%,
-    var(--red) 100%,
-    var(--red) 100%
-  );
+  background: var(--red);
 }
 
 /* Overlays */
