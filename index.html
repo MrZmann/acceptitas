@@ -23,7 +23,7 @@
     <!-- For embedding links like on linked in or Facebook, this image should show -->
     <img src="images/icon_logo_square.png" style="display: none;" />
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-sm navbar-dark">
+    <nav class="navbar navbar-expand-sm navbar-light">
       <a class="navbar-brand" href="index.html">
         <img src="images/logo.jpg" style="width: 300px;" />
       </a>
@@ -41,8 +41,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html"
-              >Home <span class="sr-only">(current)</span></a
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a
             >
           </li>
           <li class="nav-item">
@@ -70,74 +69,77 @@
       <div class="row" style="height: 10vh;">
         <div class="col my-auto text-center">
           <a class="ct-btn-scroll ct-js-btn-scroll" href="#pitch" id="scroll">
-            <i class="fa fa-angle-double-down" style="font-size:36px; color: #ccc;"></i>
+            <i class="fa fa-angle-double-down" style="font-size:60px; color: var(--gold);"></i>
           </a>
         </div>
       </div>
-      <div class="row" style="height: 100vh; background-image: url(images/icon_bg.png); background-position: right -5em bottom -17em; background-repeat: no-repeat;">
+      <div class="row" style="height: 100vh;  background-position: right -5em bottom -17em; background-repeat: no-repeat;">
         <div class="col-md-8 offset-md-2 d-flex align-content-center flex-wrap" id="pitch">
           <p id="elevatorPitch" style="opacity: 0;">
-          <br>Acceptitas is a holistic college application consulting and editing service that empowers students to identify and amplify their unique story across all their application materials.</br>
-          <br>Founded by a current Harvard student, we offer our first hand experience in the college admissions process and strong narrative crafting skills at a fraction of the cost.</br>
-          <br>We help students build their unique narrative, so that they can submit with confidence.</br>
-          <br><span class="highlight">More personal. More engaging. More affordable. </span></br>
+          <span class="big">More personal. More engaging. More affordable.</span><br></br>
+          Acceptitas is a student-to-student mentorship and consultation service that helps students to get the most out of high school and build their unique narrative across all their college application materials.
+<br></br>
+          Founded by a current Harvard student with experience teaching, consulting, and writing, we offer our first-hand experience navigating high school and the college admissions process at a fraction of the cost.
+<br></br>
+          We believe that all students should have access to excellent and highly-personal assistance and mentorship so that they can realize their full potential, pursue their passions, and submit with confidence.
+
           </p>
         </div>
       </div>
 
       <!-- Why us -->
-      <div class="row band">
-        <div class="col my-auto text-center">
-          <h1>Why Us</h1>
-        </div>
-      </div>
-      <br>
+      
+
       <div class="row">
         <div class="col-md-2 offset-md-2 col-6 text-center">
           <img src="images/index/icons/bulb.png" alt="">
           &nbsp;
-          <h6>Strategy Consultations</h6>
+          <h5>Strategy Consultations</h5>
         </div>
         <div class="col-md-2 col-6 text-center">
           <img src="images/index/icons/list.png" alt="">
           &nbsp;
-          <h6>Narrative Assessment</h6>
+          <h5>Narrative Assessments</h5>
         </div>
         <div class="col-md-2 col-6 text-center offset-md-0">
           <img src="images/index/icons/speech.png" alt="">
           &nbsp;
-          <h6>Mock Interviews</h6>
+          <h5>Mock Interviews</h5>
         </div>
         <div class="col-md-2 col-6 text-center">
           <img src="images/index/icons/pencil.png" alt="">
           &nbsp;
-          <h6>Last-Minute Editing</h6>
+          <h5>Last-Minute Editing</h5>
         </div>
       </div>
-      &nbsp;
-      <div class="row">
+       
+     
+      <div class="row thicc">
         <div class="col-md-8 offset-md-2">
-          <p> Acceptitas offers an effective, personal, and narrative-driven approach 
+          <br><p> Acceptitas offers an effective, personal, and narrative-driven approach
               to college admissions with the <span class="highlight"> first-hand 
-              experience </span> of a Harvard student. Our methods, experience, 
+              experience </span> of Harvard students. <br></br>We work with students of all ages and backgrounds to suppliment the college admission services at their schools with our incredibly personal and comprehensive approach. <br></br>Our methods, experience,
               and <span class="highlight"> unbeatable price </span> distinguish us, 
               but our passion defines us. Check out our <a href="services.html">services page</a> 
               or our <a href="about.html">about page</a> for more information.</p>
         </div>
       </div>
+       &nbsp;
 
        <div class="row band">
         <div class="col my-auto text-center">
-          <h1>Ready to Get Started?</h1>
+          <h1><b>Ready to Get Started?</b></h1>
         </div>
-      </div>
-      <br>
-      <div class="row">
+       </div>
+      
+      <div class="row thicc">
         <div class="col-md-8 offset-md-2">
-            Congratulations! You are one step closer to building your strongest college application. Get in contact with us today to set up a free consultation. Click the button below.
+            <br></br><p>Congratulations! You are one step closer to building your strongest college application. <br></br>Get in contact with us today to set up a <span class="highlight">free consultation</span>. Click the button below.</p>
         </div>
       </div>
-      &nbsp;
+      <div class="row">
+       &nbsp;
+       </div>
       <!-- Call to Action -->
       <div class="row">
         <div class="col d-flex justify-content-center">
@@ -148,6 +150,12 @@
           </a>
         </div>
       </div>
+     <!-- Calendly badge widget begin -->
+      <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+      <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+      <script type="text/javascript">Calendly.initBadgeWidget({ url: 'https://calendly.com/emmet-halm', text: 'Schedule a Free Consultation!', color: '#100e0e', textColor: '#ffffff', branding: true });</script>
+      <!-- Calendly badge widget end -->
+      
     </div>
 
     <!-- Footer -->
