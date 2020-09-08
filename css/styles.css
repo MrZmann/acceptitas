@@ -6,34 +6,62 @@
   --green: rgb(136, 194, 19);
   --white: #f5f5f5;
   --black: #100e0e;
+
+  --altred: #a32a48;
+  --altblue: #3b8beb;
+  --khaki: #e7e3d4;
+  --lightblue: #f0f8ff;
+  --lightgray: #DCDCDC;
+  --sunset: #FC9C54;
+  --gray: #aaaaaa;
+  --gold: #ffae22;
+  --offwhite: #faf6ed;
+  --lightred: #a32a48;
+}
+
+*:not(.fa){
+  font-family: Arial;
 }
 
 body {
-  background-color: var(--black);
-  color: var(--white);
+  background-color: var(--offwhite);
+  color: var(--black);
 }
 
 .highlight {
-  color: var(--red);
+  color: var(--altred);
   font-weight: bold;
 }
 
+.big {
+    color: var(--altred);
+    font-weight: bold;
+    font-size: 2.6vw;
+ 
+}
+
+.thicc {
+    color: var(--black);
+    font-size: 2vw;
+}
+
 .pop {
-  background-color: rgba(157, 157, 157, 0.1);
+  background-color: var(--black);
   border-radius: 2px;
+  
 }
 
 nav {
   /* background-color: var(--purple); */
-  color: var(--white);
+  background-color: var(--offwhite);
 }
 
 #navbarNav a:hover {
-  border-bottom: 3px solid var(--red);
+  border-bottom: 3px solid var(--altred);
 }
 
 #opening {
-  font-size: 10vw;
+  font-size: 9vw;
 }
 
 #elevatorPitch {
@@ -43,7 +71,7 @@ nav {
 }
 button {
   padding: 5px;
-  background-color: var(--red); /* Green */
+  background-color: var(--altred); /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -53,15 +81,19 @@ button {
   font-size: 16px;
 }
 button a {
-  color: white;
+  color: var(--black);
 }
 #sticky-footer {
-  background-color: var(--red);
+  background-color: var(--altred);
   flex-shrink: none;
 }
 
 .container-fluid {
   margin-bottom: 80px; /*Same as footer height */
+}
+
+small {
+    color: var(--white);
 }
 
 small a {
@@ -75,9 +107,18 @@ small a:hover {
 img {
   width: 100%;
 }
+.colored {
+    background: var(--lightred);
+    color: white;
+}
 
 .band {
-  background: var(--red);
+    color: var(--red);
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
 }
 
 /* Overlays */
@@ -128,3 +169,4 @@ img {
 .overlay-image .hover {
   background-color: rgba(0, 0, 0, 0.5);
 }
+
