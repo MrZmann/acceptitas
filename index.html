@@ -15,15 +15,22 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="css/styles.css" rel="stylesheet" />
+   <!-- For embedding the Lato style fonts -->
+   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
   </head>
   <body>
-    <!-- For embedding links like on linked in or Facebook, this image should show -->
+    <!-- For embedding links like on linkedIn or Facebook, this image should show -->
     <img src="images/icon_logo_square.png" style="display: none;" />
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-sm navbar-light">
+    
+
+
+ 
+        <nav class="sticky navbar navbar-expand-sm navbar-light">
+
       <a class="navbar-brand" href="index.html">
         <img src="images/logo.jpg" style="width: 300px;" />
       </a>
@@ -31,14 +38,15 @@
         class="navbar-toggler"
         type="button"
         data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
+        data-target="#navbar"
+        aria-controls="navbar"
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
+     
+      <div class="collapse navbar-collapse" id="navbar">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a
@@ -56,6 +64,7 @@
         </ul>
       </div>
     </nav>
+   
 
     <div class="container-fluid"">
       <!-- Elevator pitch -->
@@ -69,72 +78,88 @@
       <div class="row" style="height: 10vh;">
         <div class="col my-auto text-center">
           <a class="ct-btn-scroll ct-js-btn-scroll" href="#pitch" id="scroll">
-            <i class="fa fa-angle-double-down" style="font-size:60px; color: var(--gold);"></i>
+
+            <i class="fa fa-angle-double-down" style="font-size:80px; color: var(--altred);"></i>
+
           </a>
         </div>
       </div>
       <div class="row" style="height: 100vh;  background-position: right -5em bottom -17em; background-repeat: no-repeat;">
         <div class="col-md-8 offset-md-2 d-flex align-content-center flex-wrap" id="pitch">
           <p id="elevatorPitch" style="opacity: 0;">
-          <span class="big">More personal. More engaging. More affordable.</span><br></br>
-          Acceptitas is a student-to-student mentorship and consultation service that helps students to get the most out of high school and build their unique narrative across all their college application materials.
+          
+          <h2>More personal. More engaging. More affordable.</h2><br></br>
+          <h3>Acceptitas is a student-to-student mentorship and consultation service that helps students to get the most out of high school and build their unique narrative across all their college application materials.
 <br></br>
           Founded by a current Harvard student with experience teaching, consulting, and writing, we offer our first-hand experience navigating high school and the college admissions process at a fraction of the cost.
 <br></br>
-          We believe that all students should have access to excellent and highly-personal assistance and mentorship so that they can realize their full potential, pursue their passions, and submit with confidence.
+          We believe that all students should have access to excellent and highly-personal assistance and mentorship so that they can realize their full potential, pursue their passions, and submit with confidence.</h3>
+
 
           </p>
         </div>
       </div>
-
-      <!-- Why us -->
       
+      <!-- Why us -->
 
       <div class="row">
         <div class="col-md-2 offset-md-2 col-6 text-center">
           <img src="images/index/icons/bulb.png" alt="">
           &nbsp;
-          <h5>Strategy Consultations</h5>
+
+          <h4>Strategy Consultations</h4>
+
         </div>
         <div class="col-md-2 col-6 text-center">
           <img src="images/index/icons/list.png" alt="">
           &nbsp;
-          <h5>Narrative Assessments</h5>
+
+          <h4>Narrative Assessments</h4>
+
         </div>
         <div class="col-md-2 col-6 text-center offset-md-0">
           <img src="images/index/icons/speech.png" alt="">
           &nbsp;
-          <h5>Mock Interviews</h5>
+
+          <h4>Mock Interviews</h4>
+
         </div>
         <div class="col-md-2 col-6 text-center">
           <img src="images/index/icons/pencil.png" alt="">
           &nbsp;
-          <h5>Last-Minute Editing</h5>
+
+          <h4>Last-Minute Editing</h4>
+
         </div>
       </div>
        
      
       <div class="row thicc">
         <div class="col-md-8 offset-md-2">
-          <br><p> Acceptitas offers an effective, personal, and narrative-driven approach
+
+          <br><p><h3>Acceptitas offers an effective, personal, and narrative-driven approach
               to mentoring and college admissions with the <span class="highlight"> first-hand 
               experience </span> of Harvard students. <br></br>We work with students of all ages and backgrounds to suppliment the college admission services at their schools with our incredibly personal and comprehensive approach. <br></br>Our methods, experience,
               and <span class="highlight"> unbeatable price </span> distinguish us, 
+
+          
               but our passion defines us. Check out our <a href="services.html">services page</a> 
-              or our <a href="about.html">about page</a> for more information.</p>
+              or our <a href="about.html">about page</a> for more information.</h3></p>
         </div>
       </div>
        &nbsp;
 
        <div class="row band">
         <div class="col my-auto text-center">
-          <h1><b>Ready to Get Started?</b></h1>
+
+          <h2>Ready to Get Started?</h2>
         </div>
        </div>
       
-      <div class="row thicc">
+      <div class="row">
         <div class="col-md-8 offset-md-2">
-            <br></br><p>Congratulations! You are one step closer to building your strongest college application. <br></br>Get in contact with us today to set up a <span class="highlight">free consultation</span>. Click the button below.</p>
+            <p><h3>Congratulations! You are one step closer to building your strongest college application. <br></br>Get in contact with us today to set up a <b>free consultation</b>. Click the button below.</h3></p>
+
         </div>
       </div>
       <div class="row">
@@ -144,17 +169,14 @@
       <div class="row">
         <div class="col d-flex justify-content-center">
           <a href="contact.html">
-            <button type="button" class="align-self-center">
+            <h2><button type="button" class="align-self-center">
               Contact Us
-            </button>
+            </button></h2>
           </a>
         </div>
       </div>
-     <!-- Calendly badge widget begin -->
-      <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-      <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
-      <script type="text/javascript">Calendly.initBadgeWidget({ url: 'https://calendly.com/emmet-halm', text: 'Schedule a Free Consultation!', color: '#100e0e', textColor: '#ffffff', branding: true });</script>
-      <!-- Calendly badge widget end -->
+
+     
       
     </div>
 
@@ -162,7 +184,7 @@
     <footer id="sticky-footer" class="py-4">
       <div class="container">
         <div class="row">
-          <div class="col-6 text-left">
+          <div class="col-12 text-right">
             <p>
               <small>
               Acceptitas LLC, 2020</small> <br>
@@ -181,14 +203,7 @@
             </p>
 
           </div>
-          <div class="col-6 text-right">
-            <p>
-              <small>
-                Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-              </small> 
-            </p>
-
-          </div>
+          
         </div>
         <div class="row container d-flex justify-content-center">
           <div class="col-md-6 grid-margin stretch-card text-center">
@@ -220,6 +235,7 @@
       </div>
     </footer>
 
+    <script src="scripts/sticky.js"></script>
     <script src="scripts/fade.js"></script>
     <script src="scripts/scroll.js"></script>
   </body>
